@@ -11108,3 +11108,11 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+.mb-1.text-warning {
+    font-size: 4rem; /* Default untuk desktop */
+}
+@media (max-width: 768px) {
+    .mb-1.text-warning {
+        font-size: 2rem; /* Ukuran lebih kecil untuk layar mobile */
+    }
+}
