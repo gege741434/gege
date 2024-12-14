@@ -11116,3 +11116,18 @@ footer.footer .social-link:hover {
         font-size: 2rem; /* Ukuran lebih kecil untuk layar mobile */
     }
 }
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 768px) {
+    .foto-profil {
+        width: 100px;
+        height: 100px;
+    }
+}
