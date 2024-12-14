@@ -11131,13 +11131,17 @@ footer.footer .social-link:hover {
         height: 100px;
     }
 }
-.container {
-  position: relative;
-}
+    .container {
+      position: relative;
+      background-color: #f8f9fa; /* Warna latar belakang putih */
+      padding: 20px;
+    }
 
-.tanyakan-padaku {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-}
+    .tanyakan-padaku {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 5vw;
+      font-weight: bold;
+      color: #333;
