@@ -11131,3 +11131,9 @@ footer.footer .social-link:hover {
         height: 100px;
     }
 }
+.tanyakan-padaku {
+  position: absolute;
+  top: 20px; /* Sesuaikan nilai ini untuk mengatur jarak dari atas */
+  left: 50%;
+  transform: translateX(-50%);
+}
