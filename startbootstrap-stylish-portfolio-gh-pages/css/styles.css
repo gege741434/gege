@@ -10831,13 +10831,20 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 10%; /* Tambah jarak dari atas */
+  padding-bottom: 10%; /* Tambah jarak dari bawah */
+  min-height: 100vh; /* Buat tinggi background minimal satu layar penuh */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Posisikan konten di atas */
+  align-items: center; /* Pusatkan secara horizontal */
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
   font-size: 3rem;
+  margin-top: 0; /* Hilangin jarak atas default kalau ada */
 }
+
 .content-section-heading h3, .content-section-heading .h3 {
   font-size: 1rem;
   text-transform: uppercase;
